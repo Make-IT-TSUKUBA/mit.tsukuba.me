@@ -11,7 +11,13 @@ KdBを代替するサービスです。高速な検索や、お気に入り機�
 - GitHub リポジトリ: <a href="https://github.com/Make-IT-TSUKUBA/alternative-tsukuba-kdb/" target="_blank" rel="noopener">https://github.com/Make-IT-TSUKUBA/alternative-tsukuba-kdb</a>
 - ネットニュースで紹介されました: <a href="https://news.yahoo.co.jp/articles/5d85475cff6b4e2a7b19bed6d822b2f26ad1235a" target="_blank" rel="noopener">リンクはこちら</a>
 
-### 移行判定要件ツール（？）
+### 移行要件チェックツール
+総合学域群向けの履修組み支援ツールです。KdBもどきで仮組みした時間割が各学群・学類の移行要件を満たしているかを確認できます。
+
+<a href="https://i.imgur.com/wHmLIwB.png" rel="nofollow noopener noreferrer" target="_blank"><img src="https://i.imgur.com/wHmLIwB.png" alt="スクリーンショット" /></a>
+
+- ITF.scs 移行要件チェックツール（2021年度用）: <a href="https://make-it-tsukuba.github.io/scs-migration-checker/" target="_blank" rel="noopener">https://make-it-tsukuba.github.io/scs-migration-checker/</a>  
+
 ### アヒルボート
 松見池に浮かんでいるアヒルボート(通称: 博士号)にWebサーバーを載せて、保守管理をしています。
 
