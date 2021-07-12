@@ -1,3 +1,75 @@
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+<style>
+#page_top {
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            right: 0;
+            bottom: -50px;
+            background: #6600cc;
+            opacity: 0.6;
+            border-radius: 50%;
+        }
+
+            #page_top a {
+                position: relative;
+                display: block;
+                width: 50px;
+                height: 50px;
+                text-decoration: none;
+            }
+
+                #page_top a::before {
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 900;
+                    content: '\f102';
+                    font-size: 25px;
+                    color: #fff;
+                    position: absolute;
+                    width: 25px;
+                    height: 25px;
+                    top: -5px;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    margin: auto;
+                    text-align: center;
+                }
+
+                #page_top a:hover {
+                    background: #9977ba;
+                    opacity: 0.6;
+                    border-radius: 50%;
+                }
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+jQuery(function () {
+            var appear = false, pagetop = $('#page_top');
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    if (appear == false) {
+                        appear = true;
+                        pagetop.stop().animate({ 'bottom': '50px' }, 200);
+                    }
+                } else {
+                    if (appear) {
+                        appear = false;
+                        pagetop.stop().animate({ 'bottom': '-50px' }, 200);
+                    }
+                }
+            });
+            pagetop.click(function () {
+                $('body, html').animate({ scrollTop: 0 }, 450);
+                return false;
+            });
+        });
+
+</script>
+
+<div id="page_top"><a href="#"></a></div>
+
 # 筑波大学を便利にする会
 筑波大学を便利にする会(MIT: Make It Tsukuba)とは、筑波大学の学生および教職員の生活や業務をより便利にするアプリケーションの開発・運営および保守を主目的に活動する学生団体です。
 
