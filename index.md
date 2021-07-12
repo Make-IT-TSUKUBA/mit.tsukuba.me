@@ -9,7 +9,7 @@ KdBを代替するサービスです。高速な検索や、お気に入り機�
 
 - Alternative KdB: <a href="https://make-it-tsukuba.github.io/alternative-tsukuba-kdb/" target="_blank" rel="noopener">https://make-it-tsukuba.github.io/alternative-tsukuba-kdb/</a>
 - GitHub リポジトリ: <a href="https://github.com/Make-IT-TSUKUBA/alternative-tsukuba-kdb/" target="_blank" rel="noopener">https://github.com/Make-IT-TSUKUBA/alternative-tsukuba-kdb</a>
-- ネットニュースで紹介されました: <a href="https://news.yahoo.co.jp/articles/5d85475cff6b4e2a7b19bed6d822b2f26ad1235a" target="_blank" rel="noopener">リンクはこちら</a>
+- ネットニュースで紹介されました: <a href="https://www.itmedia.co.jp/news/articles/2104/30/news147.html" target="_blank" rel="noopener">リンクはこちら</a>
 
 ### 移行要件チェックツール
 総合学域群向けの履修組み支援ツールです。KdBもどきで仮組みした時間割が各学群・学類の移行要件を満たしているかを確認できます。
